@@ -1,0 +1,22 @@
+name: Install check
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install requirements
+        run: |
+          python -m venv .venv
+          . .venv/bin/activate
+          pip install -r server/requirements.txt
+
+      - name: Success message
+        run: echo "✅ TERMAI installed successfully in CI"
