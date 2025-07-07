@@ -1,6 +1,7 @@
 # TERMAI – Terminal AI v1.0
 **טרמינל בינה מלאכותית רב-לשוני**  
 Powered by **IS SH**
+![MIT](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
