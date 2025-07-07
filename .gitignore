@@ -1,0 +1,16 @@
+# Python virtual-env
+.venv/
+
+# Byte-code & caches
+__pycache__/
+*.pyc
+
+# Local secrets / logs
+settings.json
+history.txt
+server/history.db
+server.log
+
+# OS artefacts
+.DS_Store
+Thumbs.db
