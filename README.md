@@ -1,3 +1,4 @@
+![CI](https://github.com/ysdy823/AI-terminal/actions/workflows/ci.yml/badge.svg)
 # TERMAI – Terminal AI v1.0
 **טרמינל בינה מלאכותית רב-לשוני**  
 Powered by **IS SH**
